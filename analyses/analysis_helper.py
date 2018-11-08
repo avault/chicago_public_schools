@@ -63,7 +63,15 @@ def convert_qualitative_to_quantitiative(
 
 ########################################################################
 
-def histogram_plot( df, column, ax=None ):
+def histogram_plot(
+    df,
+    column,
+    ax = None,
+    hist_label = None,
+    y_label = 'Number of Schools',
+    x_lim = None,
+    *args, **kwargs
+):
     '''Simple histogram plot for the column of a data frame.'''
 
     if ax is None:
@@ -71,10 +79,18 @@ def histogram_plot( df, column, ax=None ):
         ax = plt.gca()
 
     ax.hist(
-      np.ma.fix_invalid( df[column] ).compressed()
+        np.ma.fix_invalid( df[column] ).compressed(),
+        *args, **kwargs
     )
 
-    ax.set_xlabel( column, fontsize=22 )
+    # Add a label
+    if hist_label is None:
+        hist_label = column
+    ax.set_xlabel( hist_label, fontsize=22 )
+    ax.set_ylabel( y_label, fontsize=22 )
+
+    if x_lim is not None:
+        ax.set_xlim( x_lim )
 
     plt.xticks( fontsize=20 )
 
