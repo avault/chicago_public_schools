@@ -166,7 +166,7 @@ def scatter_plot(
     '''Simple scatter plot comparing the two categories.
     '''
   
-    fig = plt.figure( figsize=(12,11), facecolor='white' )
+    fig = plt.figure( figsize=(12,7), facecolor='white' )
     ax = plt.gca()
 
     # Convert qualitative to quantitative
