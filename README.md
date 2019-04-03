@@ -19,8 +19,9 @@ When you find a question you would like to answer, do the following:
 * Choose the type of plot you would like to make. For example, if you are looking at a relationship between two different things consider a scatter plot.
 * Create the visualization using the above methods.
 * Consider if you need to filter the data in any way.
-* Save
+* Save or publish the results.
 
+Questions:
 * How well do selective enrollment schools succeed in enrolling their student into selective college in comparison to IB schools?
 * Does the school's ranking affect the students scores?
 * Does the zip code have any affect on the performance of a student?
