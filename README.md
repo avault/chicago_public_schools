@@ -13,7 +13,14 @@ Can you:
 * Come up with a sentence or two that describes what the main takeaway of one of the previous plots is?
 * Save or publish your plot (this requires creating an account).
 
-Once you're familiar with the data set, scan the below list of questions for one you would be interested in answering.
+**For those interested in ranking the schools, after doing the above do the following:**
+* Inspect the data set and look for data columns you would use to rank schools. Make a list of these columns.
+* Suggest ways to combine the columns into a ranking.
+* Determine a way to open the data in a spreadsheet.
+* Create a new column in the spreadsheet that's based on your ranking.
+* Reevaluate what your next steps are!
+
+For those who want a different project, once you're familiar with the data set, scan the below list of questions for one you would be interested in answering.
 When you find a question you would like to answer, do the following:
 * Look for the column(s) of data in the data set that would help answer your question.
 * Choose the type of plot you would like to make. For example, if you are looking at a relationship between two different things consider a scatter plot.
